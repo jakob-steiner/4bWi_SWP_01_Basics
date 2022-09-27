@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gridBox {
+  display: grid;
+  margin: 100px;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 300px 100px;
+}
+
+.box1 {
+  background-color: greenyellow;
+}
+
+.box2 {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: end;
+}
+
+.innerBox2 {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+}
+
+.box3 {
+  grid-column: 1 / 3;
+  background-color: orange;
+}
+
+.bottomBox {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color: grey;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBottomBox {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
