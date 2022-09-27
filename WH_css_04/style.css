@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topLeftBox {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+}
+
+.centeredBox {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.purpleBox {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: -75px;
+  right: -75px;
+  background-color: purple;
+}
+
+.topRightBox {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 40px;
+  margin: 60px;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.box {
+  margin-left: 50px;
+  width: 150px;
+  height: 200px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: flex-end;
+}
+
+.innerBox {
+  height: 75px;
+  width: 75px;
+  background-color: red;
+}
