@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBox, .rightBox {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 400px;
+    height: 400px;
+    background-color: dodgerblue;
+}
+
+.leftBox {
+    justify-content: end;
+}
+
+.rightBox {
+    justify-content: start;
+}
+
+.innerLeftBox, .innerRightBox {
+    position: absolute;
+    background-color: red;
+    width: 120px;
+    height: 120px;
+}
+
+.bottomBox {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    background-color: greenyellow;
+    border: 3px solid black;
+}
+
+.innerBottomBox {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
