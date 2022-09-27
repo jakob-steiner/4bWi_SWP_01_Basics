@@ -1,0 +1,44 @@
+body {
+    padding: 40px;
+}
+
+.bigBox {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+}
+
+.innerTopBox {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -20px;
+    left: -20px;
+    background-color: black;
+}
+
+.innerBottomBox {
+    position: absolute;
+    background-color: greenyellow;
+    height: 40px;
+    width: 40px;
+    bottom: 0;
+    right: 0;
+}
+
+.bottomBox {
+    width: 100%;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
+
+.box1, .box2, .box3 {
+    width: 40px;
+    height: 20px;
+    background-color: greenyellow;
+}
