@@ -1,0 +1,139 @@
+a:link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-weight: 300;
+  font-feature-settings: "liga", "kern";
+  background-color: #d6dcde;
+}
+
+.wrapper {
+  max-width: 875px;
+  margin-left: 130px;
+  background-color: white;
+}
+
+.header {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.networkNav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+  height: 27px;
+  background-color: #9e0b0f;
+  font-size: 16px;
+  line-height: 14px;
+  margin: 0;
+}
+
+.networkNav li {
+  flex: 0 0 auto;
+  padding-top: 6px;
+}
+
+.orfOverview {
+  padding: 0 20px 0 19px;
+}
+
+.logoAreaWrapper {
+  height: 77px;
+  background-color: #bb131a;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.logoArea {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  max-width: max-content;
+  height: 39px;
+}
+
+.vrb {
+  font-size: 26px;
+  line-height: 30px;
+  color: white;
+  position: relative;
+  top: -3px;
+  font-weight: 400;
+}
+
+.siteNavigationWrapper {
+  background-color: #790000;
+}
+
+.borderBar {
+  background-color: #d32824;
+  border-bottom: 3px solid #e94e38;
+  height: 11px;
+}
+
+.siteNav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0 18px;
+  padding: 0;
+  height: 29px;
+}
+
+.siteNav li a {
+  color: white;
+}
+
+.dropDown::before {
+  content: "";
+  background: url("https://oekastatic.orf.at/mojo/1_4_1/storyserver/oeka/common/images/arrow.nav.svg")
+    no-repeat;
+  width: 10px;
+  height: 7px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.captionBox {
+  position: relative;
+  top: -80px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 27px;
+  background-color: white;
+}
+
+.keyWord {
+  text-transform: uppercase;
+  padding: 20px 0 9px 0;
+  font-size: 19px;
+  line-height: 21px;
+  color: #84868c;
+  font-weight: medium;
+}
+
+.caption {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0;
+}
+
+.captionText {
+  margin: 9px auto;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
